@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Kick.com m3u8 steam",
+  "version": "1.0",
+  "description": "Access the m3u8 file of the live broadcast made by kick.com.",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+}
